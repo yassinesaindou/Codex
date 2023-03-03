@@ -12,7 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap"
       rel="stylesheet"
     />
-    <script
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script defer
       src="https://kit.fontawesome.com/6982c8b301.js"
       crossorigin="anonymous"
     ></script>
@@ -38,7 +39,7 @@
       </nav>
       <hr />
       <div class="grid grid--1x2 hero">
-        <div class="hero__text grid">
+        <div class="hero__text grid" data-aos="zoom-in" >
           <h1 class="hero__title">
             All in one SEO tool need to grow your business rapidly
           </h1>
@@ -52,8 +53,8 @@
             <div class="btn btn--accent">Contact Us</div>
           </div>
         </div>
-        <div class="hero__image">
-          <img src="/Images/hero.png" alt="" />
+        <div class="hero__image" >
+          <img src="/Images/hero.png" data-aos="zoom-in" alt="" />
         </div>
       </div>
     </section>
@@ -94,7 +95,10 @@
           </div>
         </div>
         <div class="about__image">
-          <img src="/Images/about.jpg" alt="" />
+          <img src="/Images/about.jpg" alt="" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"/>
         </div>
       </div>
     </section>
@@ -108,11 +112,11 @@
           <p class="call__paragraph">Lorem ipsum dolor sit amet.</p>
           <div class="input-group">
             <input type="text" class="input" placeholder="Search" />
-            <span class="newsletter-send__container"><img src="/Images/send.svg" alt="" /></span>
+            <span class="newsletter-send__container"><img src="/Images/send.svg" alt="" data-aos="zoom-in" /></span>
           </div>
         </div>
         <div class="call__image grid ">
-          <img src="/Images/newsletter.png" alt="" />
+          <img src="/Images/newsletter.png" data-aos="zoom-in" alt="" />
         </div>
       </div>
     </section>
@@ -120,9 +124,9 @@
     <!--Our Services-->
 
     <section class="oursevices__container">
-      <h2 class="service__title title--big">Our Services</h2>
+      <h2 class="service__title title--big" data-aos="zoom-in">Our Services</h2>
       <div class="oursevices grid grid--1x2 grid--1x3">
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-brands fa-searchengin fa-2x"></i>
           </div>
@@ -133,7 +137,7 @@
           </p>
           <div class="btn btn--primary">Read More</div>
         </div>
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
           </div>
@@ -144,7 +148,7 @@
           </p>
           <div class="btn btn--primary">Read More</div>
         </div>
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-solid fa-desktop fa-2x"></i>
           </div>
@@ -155,7 +159,7 @@
           </p>
           <div class="btn btn--primary">Read More</div>
         </div>
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-solid fa-users-viewfinder fa-2x"></i>
           </div>
@@ -166,7 +170,7 @@
           </p>
           <div class="btn btn--primary">Read More</div>
         </div>
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-solid fa-file-word fa-2x"></i>
           </div>
@@ -177,7 +181,7 @@
           </p>
           <div class="btn btn--primary">Read More</div>
         </div>
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-brands fa-codepen fa-2x"></i>
           </div>
@@ -188,7 +192,7 @@
           </p>
           <div class="btn btn--primary">Read More</div>
         </div>
-        <div class="solution-card">
+        <div class="solution-card" data-aos="zoom-in">
           <div class="solution__img-container">
             <i class="fa-solid fa-glasses fa-2x"></i>
           </div>
@@ -205,12 +209,12 @@
     <section class="our-project__container">
       <h2 class="title--big">Recently Added Projects</h2>
       <div class="our-projects grid grid--1x2 grid--1x3">
-        <img src="/Images/portfolio-1.jpg" alt="" />
-        <img src="/Images/portfolio-2.jpg" alt="" />
-        <img src="/Images/portfolio-3.jpg" alt="" />
-        <img src="/Images/portfolio-4.jpg" alt="" />
-        <img src="/Images/portfolio-5.jpg" alt="" />
-        <img src="/Images/portfolio-6.jpg" alt="" />
+        <img src="/Images/portfolio-1.jpg" data-aos="zoom-in" alt="" />
+        <img src="/Images/portfolio-2.jpg"data-aos="zoom-in" alt="" />
+        <img src="/Images/portfolio-3.jpg"data-aos="zoom-in" alt="" />
+        <img src="/Images/portfolio-4.jpg"data-aos="zoom-in" alt="" />
+        <img src="/Images/portfolio-5.jpg"data-aos="zoom-in" alt="" />
+        <img src="/Images/portfolio-6.jpg"data-aos="zoom-in" alt="" />
       </div>
     </section>
 
@@ -219,7 +223,8 @@
     <section class="testimonials__container">
       <h2 class="title--big">What do our clients say?</h2>
       <div class="testimonials grid grid--1x2 grid--1x3">
-       <div class="testimonial-card">
+       <div class="testimonial-card"  data-aos="fade-up"
+       data-aos-duration="3000">
          <div class="testimonial__body">
              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam esse quo, earum officia sunt deleniti iste voluptatibus rerum nesciunt quis.
          </div>
@@ -231,7 +236,8 @@
              <h3 class="profile__name">John Smith <br><span class="profile__profession"> Blogger</span></h3>
          </div>
       </div>
-      <div class="testimonial-card">
+      <div class="testimonial-card"  data-aos="fade-up"
+      data-aos-duration="3000">
        <div class="testimonial__body">
            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam esse quo, earum officia sunt deleniti iste voluptatibus rerum nesciunt quis.
        </div>
@@ -244,7 +250,8 @@
        </div>
        </div>
       
-       <div class="testimonial-card">
+       <div class="testimonial-card"  data-aos="fade-up"
+       data-aos-duration="3000">
         <div class="testimonial__body">
          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam esse quo, earum officia sunt deleniti iste voluptatibus rerum nesciunt quis.
         </div>
@@ -263,7 +270,8 @@
     <section class="our-team__container">
       <h2 class="title--big">Meet Our Team Members</h2>
       <div class="our-team grid grid--1x2 grid--1x3">
-        <div class="member">
+        <div class="member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
           <div class="member__profile">
             <div class="member__accounts">
               <span class="brand__container"
@@ -290,7 +298,8 @@
             </h3>
           </div>
         </div>
-        <div class="member">
+        <div class="member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
           <div class="member__profile">
             <div class="member__accounts">
               <span class="brand__container"
@@ -317,7 +326,8 @@
             </h3>
           </div>
         </div>
-        <div class="member">
+        <div class="member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
           <div class="member__profile">
             <div class="member__accounts">
               <span class="brand__container"
@@ -351,7 +361,8 @@
 
     <div class="footer__container">
       <footer class="grid grid--1x2 grid--1x3 grid--1x4">
-        <ul class="list">
+        <ul class="list" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <li class="item">
             <h3>Get In Touch</h3>
           </li>
@@ -382,7 +393,8 @@
             </span>
           </li>
         </ul>
-        <ul class="list">
+        <ul class="list" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <li class="item">
             <h3>Popular Link</h3>
           </li>
@@ -397,7 +409,8 @@
             <h3>Project Galery</h3>
           </li>
           <li class="item">
-            <div class="gallery grid grid--1x3">
+            <div class="gallery grid grid--1x3" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
               <img src="/Images/portfolio-1.jpg" alt="">
               <img src="/Images/portfolio-2.jpg" alt="">
               <img src="/Images/portfolio-3.jpg" alt="">
@@ -408,7 +421,8 @@
           </li>
           
         </ul>
-        <div class="footer__newsletter grid">
+        <div class="footer__newsletter grid" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <h3 class="newsletter__title">Newsletter</h3>
           <p class="newsletter__body">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga qui
@@ -424,5 +438,9 @@
       <p class="copyright">&copy; Developed by Yassine Saindou AKA "The Lion"</p>
     </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
