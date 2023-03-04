@@ -18,7 +18,7 @@ html{
 .about__icon-container,
 .footer__icon-container, 
 .fa-brands,
- .input-group img{
+ .input-group img, nav li, footer li{
     cursor: pointer;
 }
 /*Buttons*/
