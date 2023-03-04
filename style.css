@@ -14,12 +14,20 @@ html{
     --color-secondary:#6f71ee;
     --color-accent: #000276;
 }
+.fa-2x ,
+.about__icon-container,
+.footer__icon-container, 
+.fa-brands,
+ .input-group img{
+    cursor: pointer;
+}
 /*Buttons*/
 .btn{
     padding:1.5rem 5rem ;
     font-size: 2.4rem;
     border: 0;
     font-weight: 600;
+    cursor: pointer;
     overflow: hidden;
     background-color: #fff;
     border-radius: 32px;
